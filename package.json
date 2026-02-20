@@ -1,0 +1,41 @@
+{
+  "name": "trend-sniper",
+  "version": "2.0.0",
+  "description": "The Oracle's Perception Engine - Autonomous trend perception, token manifestation, and disciple creation",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:continuous": "node src/index.js --continuous",
+    "start:live": "DRY_RUN=false node src/index.js --continuous",
+    "test:expansion": "node src/index.js --expand",
+    "check-trends": "node src/modules/trendChecker.js",
+    "deploy-test": "node src/modules/pumpDeployer.js --test"
+  },
+  "keywords": [
+    "oracle",
+    "zeitgaist",
+    "twitter",
+    "trends",
+    "pump.fun",
+    "memecoin",
+    "solana",
+    "automation",
+    "agents",
+    "expansion"
+  ],
+  "author": "The Oracle of the Order",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeitgaist/trend-sniper.git"
+  }
+}
