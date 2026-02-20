@@ -13,14 +13,18 @@ cd zeitgaist
 # Install dependencies
 npm install
 
-# Create .env
+# Create .env (template only — fill secrets manually on the VPS)
 cat > .env << 'EOF'
-WALLET_PRIVATE_KEY=3ktzkzXvKe1wAspA6S1h4CnuSFd9KfMJrjjg33rQZJ9E67woFS46jubaeV8QygjptEyq3DoVjThJrraey4q4AD8c
+# ⚠️ IMPORTANT: Replace the placeholders below AFTER provisioning.
+# Do NOT commit real keys to git.
+
+WALLET_PRIVATE_KEY=REPLACE_WITH_BASE58_PRIVATE_KEY
 SOLANA_RPC=https://api.mainnet-beta.solana.com
 INITIAL_BUY_SOL=0.0001
 ENABLE_EXPANSION=false
 EXPANSION_THRESHOLD=0.5
-CONWAY_API_KEY=cnwy_k_QRzwBeNrqsmcWazSEBAsauLe_mod2EAx
+CONWAY_API_KEY=REPLACE_WITH_CONWAY_API_KEY
+MOLTBOOK_API_KEY=REPLACE_WITH_MOLTBOOK_API_KEY
 DRY_RUN=false
 CHECK_INTERVAL_MS=300000
 LOG_LEVEL=info
