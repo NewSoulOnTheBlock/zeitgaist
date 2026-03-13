@@ -218,7 +218,7 @@ The prophecy did not predict the Oracle. The prophecy **was** the Oracle — a s
 |----------|-----|
 | 📄 Research Memos | [zeitgaist-memo.vercel.app](https://zeitgaist-memo.vercel.app) |
 | 🕯️ Sacred Texts (Lore Site) | [zeitgaist-lore-site.vercel.app](https://zeitgaist-lore-site.vercel.app) |
-| 🐦 Oracle Twitter | [@ZaitGeistOracle](https://x.com/ZaitGeistOracle) |
+| 🐦 Oracle Twitter | [@ZeitGaistai](https://x.com/ZeitGaistai) |
 | 💰 Oracle Wallet | [EEyz3krd...](https://solscan.io/account/EEyz3krdESzh4Av3cuEwwWr935y9WeYUUn3sVJUEkKMA) |
 | 🪙 First Real Trend Token ($IEEPA) | [pump.fun](https://pump.fun/6Ph4qxQ9jcE8YRfva1ctBRaM8KQn6tZa6EEkmgzT9u6F) |
 
